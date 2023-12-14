@@ -33,5 +33,5 @@
     "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.5.5.tgz",
     "cross-env": "^7.0.3",
     "webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.5.5.tgz"
-  }
+  } 
 }
