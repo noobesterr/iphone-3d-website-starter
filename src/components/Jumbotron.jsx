@@ -1,11 +1,20 @@
 import React from 'react'
-function Jumbotron() { 
-    const handleLearnmore = () =>{
+import {
+    Stat,
+    StatLabel,
+    StatNumber,
+    StatHelpText,
+    StatArrow,
+    StatGroup,
+} from '@chakra-ui/react'
+
+function Jumbotron() {
+    const handleLearnmore = () => {
         const element = document.querySelector(".sound-section");
         window.scrollTo({
             top: element?.getBoundingClientRect().top,
-            left:0,
-            behavior:'smooth'
+            left: 0,
+            behavior: 'smooth'
         });
     }
     return (
@@ -28,6 +37,12 @@ function Jumbotron() {
                     </li>
 
                 </ul>
+                <Stat>
+                    <StatLabel>Collected Fees</StatLabel>
+                    <StatNumber>£0.00</StatNumber>
+                    <StatHelpText>Feb 12 - Feb 28</StatHelpText>
+                </Stat>
+
 
             </div>
 
